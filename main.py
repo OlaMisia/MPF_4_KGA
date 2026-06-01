@@ -72,11 +72,11 @@ def calfp(frates, fac_rate):
 if __name__ == "__main__":
     # Przykładowe dane wejściowe
     frates = [
-        [0, 1, 0],
-        [0, 1, 0],
-        [0, 3, 0],
-        [0, 1, 0],
-        [0, 3, 0]
+        [1, 4, 6],
+        [0, 0, 6],
+        [3, 1, 0],
+        [4, 2, 2],
+        [1, 0, 0]
     ]
 
     fac_rate = 2
