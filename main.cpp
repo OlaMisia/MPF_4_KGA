@@ -1,4 +1,4 @@
-//W tym kodzie będą wprowadzane zmiany.
+
 #include <iostream>
 #include <string>
 
@@ -16,7 +16,6 @@ void calfp(int frates[][3], int fac_rate)
         "Internal Logical Files",
         "External Interface Files"
     };
-
     // Weight Rates
     string wtRates[3] = { "Low", "Average", "High" };
 
@@ -90,14 +89,14 @@ void calfp(int frates[][3], int fac_rate)
 int main()
 {
     int frates[5][3] = {
-        { 0, 50, 0 },
-        { 0, 40, 0 },
-        { 0, 35, 0 },
-        { 0, 6, 0 },
-        { 0, 4, 0 }
+        { 0, 1, 0 },
+        { 0, 1, 0 },
+        { 0, 3, 0 },
+        { 0, 1, 0 },
+        { 0, 3, 0 }
     };
 
-    int fac_rate = 3;
+    int fac_rate = 2;
 
     calfp(frates, fac_rate);
 
