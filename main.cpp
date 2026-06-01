@@ -16,7 +16,6 @@ void calfp(int frates[][3], int fac_rate)
         "Internal Logical Files",
         "External Interface Files"
     };
-
     // Weight Rates
     string wtRates[3] = { "Low", "Average", "High" };
 
